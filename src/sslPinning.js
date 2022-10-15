@@ -19,13 +19,13 @@ const { values } = parseArgs({
 });
 
 async function main() {
-  // await corellium.login();
+  await corellium.login();
 
-  // let project = await corellium.projectNamed(process.env.PROJECT);
-  // let instance = await project.getInstance(process.env.INSTANCE);
+  let project = await corellium.projectNamed(process.env.PROJECT);
+  let instance = await project.getInstance(process.env.INSTANCE);
 
-  // let agent = await instance.agent();
-  // await agent.ready();
+  let agent = await instance.agent();
+  await agent.ready();
 
   switch (values.command) {
     case "status":
