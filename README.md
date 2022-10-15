@@ -67,8 +67,8 @@ Currently comprises of:
 
 - [ ] Improve the `argparsing` logic.
 - [ ] Merge the scripts into a master script with more function modularity, e.g., `login`.
-- [ ] Automate proxying to Burp Suite, so far it seems that the current Corellium API does not import functions that could enable this feature.
-- [ ] Implement additional features - open to discussion.
+- [ ] Automate proxying to Burp Suite, so far it seems that the current version of the [Corellium API](https://corellium.github.io/corellium-api/) does not export any function that could enable us implementing this feature.
+- [ ] Implement additional features - open to suggestions.
 
 ## Sponsor 💖
 
