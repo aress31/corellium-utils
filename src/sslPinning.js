@@ -29,6 +29,7 @@ async function main() {
 
   switch (values.command) {
     case "status":
+      console.log("[+] Fetching SSL pinning status...");
       let enabled = await agent.isSSLPinningEnabled();
       if (enabled) {
         console.log("[*] SSL pinning is enabled");
