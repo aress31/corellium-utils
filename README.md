@@ -97,4 +97,4 @@ Please submit all `PRs` on the GitHub [pull requests tracker](https://github.com
 
 ## License
 
-See [LICENSE](LICENSE) for details.
+See [LICENSE](LICENSE).
