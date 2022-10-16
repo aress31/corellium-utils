@@ -5,7 +5,7 @@
 
 ## Corellium Utility Scripts
 
-A collection of scripts that leverage the [Corellium API](https://corellium.github.io/corellium-api/) with the aim of facilitating pentesting activities.
+A collection of scripts written in `JavaScript` designed to interact with the [Corellium API](https://corellium.github.io/corellium-api/) with the aim of facilitating pentesting activities.
 
 Currently comprises of:
 
@@ -16,7 +16,14 @@ Currently comprises of:
 
 1. Install [Node.js](https://nodejs.org/en/).
 
-2. Install the project dependencies:
+2. Download this repository:
+
+   ```bash
+   git clone https://github.com/aress31/corellium-utils
+   cd .\corellium-utils
+   ```
+ 
+3. Install the dependencies:
 
    > [!IMPORTANT]
    > The command below is to be executed in the root folder of this project.
@@ -25,10 +32,10 @@ Currently comprises of:
    npm install
    ```
 
-3. Create an `.env` file on the root folder with the following data:
+4. Create an `.env` file in the root folder containing the following constants:
 
    > [!NOTE]
-   > Replace the placeholder values below with your values.
+   > Replace the placeholder values with your values.
 
    ```
    API_TOKEN="XXX"
@@ -45,7 +52,7 @@ Currently comprises of:
   node .\takeScreenshot.js
   ```
 
-- To check the `status` of SSL pinning:
+- To query the `status` of SSL pinning:
 
   ```bash
   node .\sslPinning.js -c status
